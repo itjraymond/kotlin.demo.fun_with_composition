@@ -7,3 +7,5 @@ Only two things that may be worth mentioning for those who are starting with Kot
 * Notice the function types
 * Notice the very succinct kotlin syntax.
 * Notice the curried function syntax.
+
+
