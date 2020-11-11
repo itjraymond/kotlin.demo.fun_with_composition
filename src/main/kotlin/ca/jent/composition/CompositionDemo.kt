@@ -61,8 +61,8 @@ fun main() {
     val value2 = addAndDbouleIt(3, 7)
 
     // Another way of using function composition with curried function.
-    // Notice that we call two function: The first shown by the first parenthesis ...(3) which
-    // returns another function which is called with the second parenthesis ...(7)
+    // Notice that we call two functions: The first shown by the first parenthesis ...(3) which
+    // returns another function which is then called with the second parenthesis ...(7)
     val value3 = addAndDoubleItCurried(3)(7)
 
 
