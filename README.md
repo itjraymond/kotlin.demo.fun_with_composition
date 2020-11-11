@@ -7,3 +7,5 @@ Only three things that may be worth mentioning for those who are starting with K
 * Notice the function types
 * Notice the very succinct kotlin syntax.
 * Notice the curried function syntax.
+
+
