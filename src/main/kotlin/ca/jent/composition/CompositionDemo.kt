@@ -55,12 +55,14 @@ fun main() {
     // a second function
     val value1 = doubleIt(add(3,7))
 
-    // This is function composition: we simply use the addAsString
-    // just like any other function.  In other word, addAsString
-    // is a function that has been composed from add and intToString
+    // This is function composition: we simply use the addAndDoubleIt
+    // just like any other function.  In other word, addAndDoubleIt
+    // is a function that has been composed from add and doubleIt.
     val value2 = addAndDbouleIt(3, 7)
 
     // Another way of using function composition with curried function.
+    // Notice that we call two function: The first shown by the first parenthesis ...(3) which
+    // returns another function which is called with the second parenthesis ...(7)
     val value3 = addAndDoubleItCurried(3)(7)
 
 
